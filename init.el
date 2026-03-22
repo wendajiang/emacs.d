@@ -83,8 +83,10 @@
 (when (file-exists-p custom-file)
   (load custom-file))
 
-(require 'perspective-tabs)
-(perspective-tabs-mode +1)
+(use-package perspective-tabs
+  :after (perspective)
+  :init
+  (perspective-tabs-mode +1))
 
 
 (provide 'init)
