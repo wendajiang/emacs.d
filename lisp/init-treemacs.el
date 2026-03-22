@@ -77,7 +77,6 @@
     :demand t
     :config (treemacs-set-scope-type 'Tabs)))
 
-(treemacs-start-on-boot)
 
 (provide 'init-treemacs)
 
