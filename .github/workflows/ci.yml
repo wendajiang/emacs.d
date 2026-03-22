@@ -8,7 +8,7 @@ on:
       - '**.org'
       - '.dir-locals.el'
     branches:
-      - master
+      - main
 
 jobs:
   build:
