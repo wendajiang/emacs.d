@@ -12,29 +12,6 @@
 
 </div>
 
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [个人**Emacs**配置](#个人emacs配置)
-- [需要的依赖](#需要的依赖)
-- [基础配置](#基础配置)
-- [插件配置、升级](#插件配置升级)
-- [界面](#界面)
-- [趁手的工具](#趁手的工具)
-- [按键绑定](#按键绑定)
-    - [evil-mode](#evil-mode)
-    - [Emacs](#emacs)
-- [通用开发设置](#通用开发设置)
-- [prog-mode](#prog-mode)
-    - [cc-mode](#cc-mode)
-    - [rust-mode](#rust-mode)
-    - [ocaml-mode](#ocaml-mode)
-    - [haskell-mode](#haskell-mode)
-- [截图](#截图)
-- [FAQ](#faq)
-- [其他](#其他)
-
-<!-- markdown-toc end -->
 
 个人**Emacs**配置
 ====
