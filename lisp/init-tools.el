@@ -124,9 +124,6 @@
       (lambda (win buff bury-or-kill)
         (not (persp-is-current-buffer buff))))
 
-(require 'perspective-tabs)
-(perspective-tabs-mode +1)
-
 ;; Universal menus
 (use-package transient
   :ensure nil

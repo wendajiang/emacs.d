@@ -83,6 +83,10 @@
 (when (file-exists-p custom-file)
   (load custom-file))
 
+(require 'perspective-tabs)
+(perspective-tabs-mode +1)
+
+
 (provide 'init)
 
 ;;; init.el ends here
