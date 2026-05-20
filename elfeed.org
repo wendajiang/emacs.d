@@ -1,0 +1,12 @@
+* Blogs                                                                     :elfeed:
+** daily                                                                   :blog:
+*** https://blog.reverberate.org/feed.xml                                 :blogreverberate:
+*** https://blog.llvm.org/index.xml  
+
+* Web
+** https://feeds.feedburner.com/martinkl?format=xml                       :ddia:
+("ddia author" "" nil nil nil)
+("lwn" "https://lwn.net/headlines/rss" nil nil nil)
+("huahua tech" "https://zxi.mytechroad.com/blog/feed" nil nil nil)
+("rocksdb" "https://rocksdb.org/feed.xml" nil nil nil)
+("sutter mill" "https://herbsutter.com/feed" nil nil nil)))

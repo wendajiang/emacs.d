@@ -48,6 +48,12 @@
   (quelpa-update-melpa-p nil)
   (quelpa-checkout-melpa-p nil))
 
+(quelpa
+ '(quelpa-use-package
+   :fetcher git
+   :url "https://github.com/quelpa/quelpa-use-package.git"))
+(require 'quelpa-use-package)
+
 ;; --debug-init implies `debug-on-error'.
 (setq debug-on-error init-file-debug)
 
@@ -75,6 +81,7 @@
 (require 'init-shell)
 (require 'init-spell)
 (require 'init-gpt)
+(require 'init-elfeed)
 
 ;; MacOS specific
 (when (eq system-type 'darwin)
